@@ -1,7 +1,7 @@
 
-# 💾 Criando um Banco de Dados SQL no Azure: Minha Experiência
+# 💾 Criando uma Instância de Banco de Dados SQL no Azure: Minha Experiência
 
-Durante a realização do **Lab 02** no curso *Microsoft 50 Anos - Computação em Nuvem com Azure*, explorei o processo de criação de um banco de dados SQL no portal do Azure. O passo a passo é simples, mas cheio de oportunidades de aprendizado sobre configuração, segurança e estruturação de serviços em nuvem.
+Durante a realização do **Lab 02** no curso *Microsoft 50 Anos - Computação em Nuvem com Azure*, explorei o processo de criação de uma Instância de Banco de Dados SQL no portal do Azure. O passo a passo é simples, mas cheio de oportunidades de aprendizado sobre configuração, segurança e estruturação de serviços em nuvem.
 
 ---
 
@@ -15,7 +15,7 @@ Antes de tudo, é essencial criar um grupo de recursos para manter os serviços 
 
 ## 🖥️ Etapa 2 – Criando o Servidor SQL
 
-Criei um servidor lógico para hospedar meu banco de dados. Esse servidor vai centralizar a autenticação e facilitar futuras conexões com outros bancos.
+Criei um servidor para hospedar as instâncias de banco de dados. Esse servidor vai centralizar a autenticação e facilitar futuras conexões com outros bancos.
 
 ![Criar servidor SQL](assets/02-ms50-lab02-criacao-servidor-do-banco-de-dados-sql.png)
 
@@ -25,13 +25,13 @@ Criei um servidor lógico para hospedar meu banco de dados. Esse servidor vai ce
 
 Configurei o nome do banco de dados, vinculei ao servidor que criei na etapa anterior e escolhi o nível de desempenho apropriado para o laboratório.
 
-![Criar banco de dados SQL](assets/03-ms50-lab02-criacao-bancode-dados-sql.png)
+![Criar Instância de Banco de Dados SQL](assets/03-ms50-lab02-criacao-bancode-dados-sql.png)
 
 ---
 
 ## 🌐 Etapa 4 – Configurando a Rede de Acesso
 
-Aqui defini as opções de conectividade do banco – seja acessível publicamente ou com regras específicas de firewall.
+Aqui defini as opções de conectividade – para que seja acessível publicamente ou com regras específicas de firewall.
 
 ![Configurar rede de acesso](assets/04-ms50-lab02-criacao-da-rede-banco-de-dados-sql.png)
 
@@ -47,7 +47,7 @@ Antes de confirmar a criação, revisei cuidadosamente as configurações. Essa 
 
 ## ⚙️ Etapa 6 – Acompanhando o Provisionamento
 
-Com tudo revisado, cliquei em "Criar" e acompanhei o provisionamento do banco de dados via portal. Em poucos minutos, tudo estava pronto.
+Com tudo revisado, cliquei em "Criar" e acompanhei o provisionamento da Instância via portal. Em poucos minutos, tudo estava pronto.
 
 ![Andamento da criação](assets/06-ms50-lab02-andamento-da-criacao-bancode-dados-sql.png)
 
@@ -55,7 +55,7 @@ Com tudo revisado, cliquei em "Criar" e acompanhei o provisionamento do banco de
 
 ## ✅ Etapa 7 – Banco de Dados Pronto
 
-A criação foi concluída com sucesso, e o banco ficou disponível para uso imediato, com as informações de conexão e painel de controle disponíveis no portal.
+A criação foi concluída com sucesso, e a instância ficou disponível para uso imediato, com as informações de conexão e painel de controle disponíveis no portal.
 
 ![Criação finalizada](assets/06-ms50-lab02-finalizado-criacao-banco-de-dados-sql.png)
 
