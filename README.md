@@ -53,7 +53,7 @@ Com tudo revisado, cliquei em "Criar" e acompanhei o provisionamento da Instânc
 
 ---
 
-## ✅ Etapa 7 – Banco de Dados Pronto
+## ✅ Etapa 7 – Instância de Banco de Dados Pronta
 
 A criação foi concluída com sucesso, e a instância ficou disponível para uso imediato, com as informações de conexão e painel de controle disponíveis no portal.
 
