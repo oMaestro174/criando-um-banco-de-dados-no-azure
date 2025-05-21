@@ -9,7 +9,7 @@ Durante a realização do **Lab 02** no curso *Microsoft 50 Anos - Computação 
 
 Antes de tudo, é essencial criar um grupo de recursos para manter os serviços organizados e facilitar a gestão no Azure.
 
-![Criar grupo de recursos](01-ms50-lab02--criacao-do-grupo-de-recursos.png)
+![Criar grupo de recursos](assets/01-ms50-lab02--criacao-do-grupo-de-recursos.png)
 
 ---
 
@@ -17,7 +17,7 @@ Antes de tudo, é essencial criar um grupo de recursos para manter os serviços 
 
 Criei um servidor lógico para hospedar meu banco de dados. Esse servidor vai centralizar a autenticação e facilitar futuras conexões com outros bancos.
 
-![Criar servidor SQL](02-ms50-lab02-criacao-servidor-do-banco-de-dados-sql.png)
+![Criar servidor SQL](assets/02-ms50-lab02-criacao-servidor-do-banco-de-dados-sql.png)
 
 ---
 
@@ -25,7 +25,7 @@ Criei um servidor lógico para hospedar meu banco de dados. Esse servidor vai ce
 
 Configurei o nome do banco de dados, vinculei ao servidor que criei na etapa anterior e escolhi o nível de desempenho apropriado para o laboratório.
 
-![Criar banco de dados SQL](03-ms50-lab02-criacao-bancode-dados-sql.png)
+![Criar banco de dados SQL](assets/03-ms50-lab02-criacao-bancode-dados-sql.png)
 
 ---
 
@@ -33,7 +33,7 @@ Configurei o nome do banco de dados, vinculei ao servidor que criei na etapa ant
 
 Aqui defini as opções de conectividade do banco – seja acessível publicamente ou com regras específicas de firewall.
 
-![Configurar rede de acesso](04-ms50-lab02-criacao-da-rede-banco-de-dados-sql.png)
+![Configurar rede de acesso](assets/04-ms50-lab02-criacao-da-rede-banco-de-dados-sql.png)
 
 ---
 
@@ -41,7 +41,7 @@ Aqui defini as opções de conectividade do banco – seja acessível publicamen
 
 Antes de confirmar a criação, revisei cuidadosamente as configurações. Essa etapa é importante para evitar custos indesejados ou falhas na conectividade.
 
-![Revisão da criação](05-ms50-lab02-revisao-criacao-bancode-dados-sql.png)
+![Revisão da criação](assets/05-ms50-lab02-revisao-criacao-bancode-dados-sql.png)
 
 ---
 
@@ -49,7 +49,7 @@ Antes de confirmar a criação, revisei cuidadosamente as configurações. Essa 
 
 Com tudo revisado, cliquei em "Criar" e acompanhei o provisionamento do banco de dados via portal. Em poucos minutos, tudo estava pronto.
 
-![Andamento da criação](06-ms50-lab02-andamento-da-criacao-bancode-dados-sql.png)
+![Andamento da criação](assets/06-ms50-lab02-andamento-da-criacao-bancode-dados-sql.png)
 
 ---
 
@@ -57,7 +57,7 @@ Com tudo revisado, cliquei em "Criar" e acompanhei o provisionamento do banco de
 
 A criação foi concluída com sucesso, e o banco ficou disponível para uso imediato, com as informações de conexão e painel de controle disponíveis no portal.
 
-![Criação finalizada](06-ms50-lab02-finalizado-criacao-banco-de-dados-sql.png)
+![Criação finalizada](assets/06-ms50-lab02-finalizado-criacao-banco-de-dados-sql.png)
 
 ---
 
